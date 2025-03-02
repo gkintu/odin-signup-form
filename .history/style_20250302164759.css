@@ -134,13 +134,6 @@ input:focus {
   box-shadow: 3px 3px 3px var(--border-color); 
 }
 
-#password:invalid {
-  border-color: red; 
-}
-
-#password:valid {
-  border-color: green;
-}
 h2, .form-actions {
   padding: 2rem; 
 }
