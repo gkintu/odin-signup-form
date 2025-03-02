@@ -14,10 +14,6 @@ box-sizing: border-box;
   /* --text-color: #333; */
 }
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 
 main {
   display: flex;
@@ -132,16 +128,6 @@ input {
 
 .btn {
   background-color: var(--primary-color);
-  color: #fff;
-  border: none;
-  padding: 0.8rem; 2.5rem;
-  border-radius: 5px;
-  font-weight: bold; 
-  cursor: pointer;
-  font-size: 1rem;
-  margin-bottom: 1rem; 
-}
-
-.login-text {
-  font-size: 0.9rem;
+  color: fff;
+  
 }

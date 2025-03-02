@@ -1,0 +1,56 @@
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.left-side {
+  position: relative;
+  background: url('cloud-prod-BBQCCaq04X0-unsplash.jpg') no-repeat center center/cover; 
+  opacity: 0.85;
+  height:100vh;
+  width: 40vw;
+}
+
+.logo-section {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  gap: 5%;
+  top: 120px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#odin-logo {
+  height: 80px;
+  
+}
+
+h1 {
+  color:#f1f1f1;
+  font-family: "Germania One", sans-serif;
+  font-size: 5.4rem;
+}
+
+.credit {
+  width: 100%;
+  position:absolute;
+  bottom: 0;
+  text-align: center;
+  padding-bottom:10px
+}
+
